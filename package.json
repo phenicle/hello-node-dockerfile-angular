@@ -4,6 +4,7 @@
   "description": "simple hello world",
   "main": "hello-node-dockerfile-angular.js",
   "scripts": {
+    "build-hello-node-dockerfile-angular:hello": "ng build hello-node-dockerfile-angular --outputPath=./dist/apps/api/static --configuration=docker",
     "start:hello": "node hello-node-dockerfile-angular.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
