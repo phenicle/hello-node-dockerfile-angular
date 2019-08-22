@@ -1,0 +1,23 @@
+{
+  "name": "hello-node-dockerfile-angular",
+  "version": "1.0.0",
+  "description": "simple hello world",
+  "main": "hello-node-dockerfile-angular.js",
+  "scripts": {
+    "start:hello": "node hello-node-dockerfile-angular.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phenicle/hello-node-dockerfile-angular.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "Phenicle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phenicle/hello-node-dockerfile-angular/issues"
+  },
+  "homepage": "https://github.com/phenicle/hello-node-dockerfile-angular#readme"
+}
