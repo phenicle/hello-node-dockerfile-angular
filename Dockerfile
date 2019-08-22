@@ -7,9 +7,11 @@ COPY package*.json ./
 # Bundle app source
 COPY . /usr/source/app
 
-# comment out the build for now
-# time permitting, it'd be nice to add angular & use ng build
-#RUN npm run build-hw:hello
+# Fixes an issue installing node-sass
+RUN npm config set user root
+RUN npm install -g @angular/cli@8.2.1
+# Fixes an issue installing node-sass
+RUN npm install -g node-gyp pm2
 
 EXPOSE 8080
 
