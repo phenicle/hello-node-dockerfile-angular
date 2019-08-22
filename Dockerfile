@@ -13,7 +13,7 @@ RUN npm install -g node-gyp pm2
 # Bundle app source
 COPY . /usr/source/app
 
-RUN npm run build-hello-node-dockerfile-angular:hello
+#RUN npm run build-hello-node-dockerfile-angular:hello
 
 EXPOSE 8080
 
