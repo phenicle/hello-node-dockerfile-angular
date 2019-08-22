@@ -16,7 +16,8 @@
     "@angular/forms": "^8.0.0",
     "@angular/platform-browser": "^8.0.0",
     "@angular/platform-browser-dynamic": "^8.0.0",
-    "@angular/router": "^8.0.0"
+    "@angular/router": "^8.0.0",
+    "ng2-completer": "^3.0.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.800.0",
